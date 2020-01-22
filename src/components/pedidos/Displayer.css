@@ -1,0 +1,29 @@
+.display-pedidos {
+  height: 100%;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 0.9;
+}
+.row-pedido {
+  border: 2px solid black;
+  height: 350px;
+  width: 550px;
+  margin-left: 0.25em;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  margin: auto;
+}
+.img {
+  border: 2px solid;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background: url(https://falabella.scene7.com/is/image/FalabellaCO/3667757_1?$producto308$&wid=800&hei=800&qlt=70)
+    no-repeat center center;
+  background-size: cover;
+}
+.info {
+  border: 2px solid;
+  width: 100%;
+  color: black;
+}

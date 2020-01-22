@@ -1,0 +1,71 @@
+.display-items {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 4fr 3fr 1fr;
+  width: 100%;
+}
+.header-image {
+  height: 100vh;
+
+  background-size: cover;
+  background: no-repeat center fixed
+    url(https://images.pexels.com/photos/6805/fashion-men-vintage-colorful.jpg?cs=srgb&dl=business-businessmen-career-colorful-6805.jpg&fm=jpg);
+}
+.shared-images {
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  height: 400px;
+}
+.col-1 {
+  border-right: 2px solid black;
+  background: no-repeat center center fixed
+    url(https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?cs=srgb&dl=photo-of-three-jeans-1598507.jpg&fm=jpg);
+  background-size: cover;
+}
+.col-2 {
+  background: no-repeat center center fixed
+    url(https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?cs=srgb&dl=smiling-woman-looking-upright-standing-against-yellow-wall-1536619.jpg&fm=jpg);
+  height: 100%;
+  background-size: cover;
+}
+.catalog-image {
+  border: 2px solid black;
+}
+.center {
+  color: whitesmoke;
+  text-align: center;
+}
+.touch {
+  background-color: rgba(255, 255, 255, 0.384);
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.touch:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.cataloges {
+  display: grid;
+  /* grid-template-columns: repeat(12, 1fr); */
+  height: 500px;
+  background: url(https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+    center center no-repeat;
+  background-size: cover;
+}
+
+.image {
+  border-radius: 5px;
+  height: 100%;
+  overflow: hidden;
+}
+.descripcion {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 70%;
+}

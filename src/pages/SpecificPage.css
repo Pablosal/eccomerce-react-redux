@@ -1,0 +1,14 @@
+.description-item {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  width: 100%;
+  border: 2px solid black;
+}
+.descImg {
+  color: black;
+}
+.showIm {
+  width: 100%;
+  height: 100%;
+}

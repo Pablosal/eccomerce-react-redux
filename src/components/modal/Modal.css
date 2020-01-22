@@ -1,0 +1,18 @@
+.champion {
+  background-color: cornflowerblue;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 10px;
+  right: auto;
+  left: 315px;
+  border-radius: 15px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+.navigator {
+  background-color: rgb(74, 27, 119);
+  width: 100%;
+  display: flex;
+  border-bottom: 0.5px solid;
+}
+
+.navigator-items {
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 7fr 2fr 2fr;
+}
+.navigator-item-link {
+  color: white;
+  text-decoration: none;
+}
+.navigator-item-link:hover {
+  text-decoration: overline;
+}
+.border {
+  border: 2px solid;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.complete {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+input {
+  border: none;
+  width: 90%;
+  height: 100%;
+  margin-left: 2px;
+}
